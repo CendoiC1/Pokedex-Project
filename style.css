@@ -544,9 +544,3 @@ div#not-found-message {
   border-color: transparent;
   background-color: transparent;
 }
-
-@media (max-width: 480px) {
-  .list-item .name-wrap {
-    margin-top: 0;
-  }
-}
