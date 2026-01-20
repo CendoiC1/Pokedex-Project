@@ -247,10 +247,10 @@ body {
   background-color: var(--grayscale-white);
   box-shadow: var(--drop-shadow-inner);
   border-radius: 0.75rem;
-  min-height: calc(85.5% - 1rem);
+  height: calc(100% - 180px);
   width: calc(100% - 1rem);
-  max-height: 100px;
   overflow-y: auto;
+  position: relative;
 }
 
 .list-wrapper {
