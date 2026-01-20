@@ -249,7 +249,7 @@ body {
   border-radius: 0.75rem;
   min-height: calc(85.5% - 1rem);
   width: calc(100% - 1rem);
-  max-height: 70vh;
+  max-height: none;
   overflow-y: auto;
 }
 
