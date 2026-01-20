@@ -249,7 +249,7 @@ body {
   border-radius: 0.75rem;
   min-height: calc(85.5% - 1rem);
   width: calc(100% - 1rem);
-  max-height: none;
+  max-height: 100px;
   overflow-y: auto;
 }
 
@@ -535,4 +535,10 @@ div#not-found-message {
   height: max-content;
   border-color: transparent;
   background-color: transparent;
+}
+
+@media (max-width: 480px) {
+  .list-item .name-wrap {
+    margin-top: 0;
+  }
 }
