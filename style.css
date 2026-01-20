@@ -286,6 +286,10 @@ body {
   padding: 24px 8px 4px 8px;
   color: var(--grayscale-dark);
   margin-top: -18px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .list-item .img-wrap {
@@ -384,6 +388,10 @@ body {
 
 .list-item .name-wrap p {
   text-transform: capitalize;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+  line-height: 1.2;
 }
 
 .detail-card-detail-wrapper .about-text {
